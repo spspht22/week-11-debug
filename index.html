@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Character Set -->
+	<meta charset="utf-8">
+	<!-- Media Queries -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Title -->
+	<title>Debugging Card Display App</title>
+
+	<!-- BOOTSTRAP CSS-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<h1 id="displayText">Click To Add a Random Card</h1>
+		<!-- Display remaining cards -->
+		<p id="totalCards"></p>
+		<!-- Button for next card -->
+		<button onclick="newCard()" id="btn" type="button" class="btn btn-primary btn-lg">Select A Random Card</button>
+	</div>
+
+	<div class="container">
+		<!-- Display for cards -->
+		<div id="cardArea"></div>
+	</div>
+
+
+<!-- Custom JavaScript-->
+<script src="js/main.js"></script>
+</body>
+</html>

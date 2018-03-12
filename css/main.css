@@ -1,0 +1,9 @@
+.smallCard {
+  height: 138px;
+  width: 100px;
+}
+#cardArea{
+  max-height: 480px;
+  overflow: auto;
+  margin-top: 5px;
+}
